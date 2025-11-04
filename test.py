@@ -308,7 +308,7 @@ f=findnearneighbour(xwhole[-1],ywhole[-1],xwhole[-2],ywhole[-2],xcar,ycar)
 
 anglet_file=f     
 
-parameters=np.array([19,perimeter_file,distance_file,anglet_file,radius_file,sym1_file,sym2_file,per_div_ar_file,compactness_file,cn2_file,cn3_file,cn4_file,cn5_file,cn6_file])
+parameters=np.array([n,perimeter_file,distance_file,anglet_file,radius_file,sym1_file,sym2_file,per_div_ar_file,compactness_file,cn2_file,cn3_file,cn4_file,cn5_file,cn6_file])
 
 print(regr.predict(parameters.reshape(1,-1)))[0]
 #print time.time()-t
