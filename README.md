@@ -1,0 +1,1 @@
+Includes detailed implementation for cluster energy prediction for MgCl2 using RF models. The model is validated against existing data for the energy calculated using DFT. RF models help in accelarating overall genetic algorithm by replacing DFT optimization by RF model.
